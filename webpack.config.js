@@ -3,6 +3,8 @@ const {
   CleanWebpackPlugin
 } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require("webpack");
+const autoprefixer = require("autoprefixer");
 
 const fontConfig = {
   test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
@@ -52,7 +54,12 @@ const sassConfig = {
 
 const cssConfig = {
   test: /\.css$/,
-  loader: ['style-loader', 'css-loader']
+  exclude: /node_modules/,
+  use: [{
+    loader: 'style-loader',
+  }, {
+    loader: 'css-loader'
+  }]
 }
 
 const jsConfig = {
@@ -78,15 +85,45 @@ module.exports = env => {
     module: {
       rules: [pugConfig, sassConfig, cssConfig, jsConfig, fontConfig]
     },
+    // postcss: function() {
+    //   return [autoprefixer];
+    // },
     plugins: [
       new CleanWebpackPlugin({
         cleanStaleWepackAssets: true,
         cleanOnceBeforeBuildPatterns: [],
         cleanAfterEveryBuildPatterns: ["**/dist/assets/js/*.js.js", "**/dist/assets/css/*.js", "!node_modules/**"]
       }),
+      new webpack.LoaderOptionsPlugin({
+        options: {
+          postcss: [
+            autoprefixer()
+          ]
+        }
+      }),
       new HtmlWebpackPlugin({
         filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/contact.html'),
         template: "./pug/contact.pug",
+        inject: false
+      }),
+      new HtmlWebpackPlugin({
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/about.html'),
+        template: "./pug/about.pug",
+        inject: false
+      }),
+      new HtmlWebpackPlugin({
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/index.html'),
+        template: "./pug/index.pug",
+        inject: false
+      }),
+      new HtmlWebpackPlugin({
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/service.html'),
+        template: "./pug/service.pug",
+        inject: false
+      }),
+      new HtmlWebpackPlugin({
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/esg.html'),
+        template: "./pug/esg.pug",
         inject: false
       }),
     ]

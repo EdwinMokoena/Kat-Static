@@ -1,0 +1,140 @@
+extends ./includes/base.pug
+
+block navbar
+  #navbar-full
+    include includes/navbar-light.pug
+
+    .jumbotron.py-5(style="background-image: url('./assets/img/esg-cover.png'); background-position:top center;")
+      .container
+        .row.text-black.mb-4(style="background-color:transparent;")
+          .col-md-7.col-sm-12.p-2
+            .col-md-12
+              h1.jumbotron-heading.mt-2
+                strong.d-sm-block.w-100 Environmental, Social and Governance
+            .col-md-12
+              p.mt-3
+                | We understand ESG as the bedrock of institutionalised accountable organisations
+                | focusing on ethical leadership, legal compliance, risk management and social inclusion,
+                | we work with our clients to develop bespoke ESG frameworks agile
+                | enough to respond to both local and international factors.
+
+block content
+  main
+    .container-fluid(style="background-image: url('./assets/img/esg-cover-2.png'); background-position:top center; min-height:370px;")
+      .container.p-5
+        .row.text-white.mt-4.d-flex(style="background-color:transparent;")
+          .col-md-10.offset-md-1.align-items-center
+            .col-md-12.mt-4
+                h2.display-1.mt-2
+                  strong.d-sm-block.w-100 ESG Matters
+            .col-md-12.mt-4
+              p.mt-3.p-3
+                | SIMS offers advisory services in ESG to organisations seeking to deploy capital or
+                | receive capital for growth and impact investments. To build resilient organisations, to defend them
+                | with ethical governance and to unlock value with smart ESG solutions. SIMS guide clients to
+                | develop a custom made position on ESG matters based on a comprehensive understanding of
+                | relevant factors,and opportunities. We embed ESG into business and decision-making processes
+                | for precise solutions.
+
+    .container-fluid.bg-dark.pb-0
+      .container
+        .row.mt-4(style="background-color:transparent;")
+          .col-md-8.offset-md-2.align-items-center.bg-light.service-img.p-5
+            .col-md-12
+                h2.text-bold.py-2.px-5
+                  strong.d-sm-block.w-100 Solutions
+            .col-md-12
+              ul.pt-3
+                li
+                  p.text-bold
+                    | Development of end-to-end ESG management system throughoffering bespoke ESG framework,
+                    | policies and procedures;
+                li
+                  p.text-bold
+                    | Design of user-friendly proprietary assessment tools, data analysis and reporting;
+                li
+                  p.text-bold
+                    | Conduct Due Diligence on potential investments with rapidly deployed specific
+                    | and measurable corrective actions plan and value creation;
+                li
+                  p.text-bold
+                    | Investment monitoring for on-going management of ESG corrective action plan.
+                li
+                  p.text-bold
+                    | ESG reporting on fund or company level.
+                li
+                  p.text-bold
+                    | Portfolio evaluation for regular reviews or pre-exit preparedness.
+                li
+                  p.text-bold
+                    | We provide tailored ESG training at investment firms, fund managers and companies.
+                li
+                  p.text-bold
+                    | We conduct ESG audits to ensure clients remain compliant with investment mandates.
+                li
+                  p.text-bold
+                    | We assist our clients to bridge the information gap of impact investment and ESG
+                    | management. This is through our strong understanding of local content, gloval connections,
+                    | sector engagement and  deep domain expertise.
+
+    .container-fluid(style="background-image: url('./assets/img/esg-cover-3.png'); background-position:top center; min-height:270px;")
+      .container.p-5
+        .row.text-white.mt-4.d-flex(style="background-color:transparent;")
+          .col-md-10.offset-md-1.align-items-center
+            .col-md-12.mt-4
+                h2.display-1.mt-2
+                  strong.d-sm-block.w-100 Our ESG Approach
+            .col-md-12.mt-4
+              p.mt-3.p-3
+                | SIMS espouses an integrated approach that ensures effective inclusion of ESG into its clients' investment philosophy. Such an approach is aimed at mitigating against any ESG risk that may impact on the investment and other economic activities of the client company.
+    .bg-light
+      .container.p-5
+        .row.mt-4.d-flex(style="background-color:transparent;")
+          .col-md-12
+              h2.mt-2.text-center.display-4
+                strong.d-sm-block.w-100 Our Approach In Steps
+          .col-md-12.mt-4
+            img.img-responsive(src="./assets/img/steps-of-approach.png")
+
+    .bg-dark
+      .container.p-5
+        .row.text-center.d-flex
+          .col-12.p-3
+            p.display-5
+              | Sustainability and impact investment are critical.
+              | To achieve this, we have embedded the following ESG themes in our approach
+          .col-12.p-5.align-items-center
+            ul.px-5
+              li
+                p
+                  span.text-bold Job Creation
+                  | - Sustainable economic achievement requires strategies for the
+                  | significant creation of stable jobs, entrepreneurship development,
+                  | scale up of small and mediun enterprise and skills development.
+              li
+                p
+                  span.text-bold Inclusive Economic Prosperity
+                  | - Transfromed economic development, where investments not only deliver
+                  | higher risk-adjusted returns, but also inclusion of society,
+                  | leading to sustainable social and environmental impact.
+              li
+                p
+                  span.text-bold Gender Equality
+                  | - An ethical basis to achieving mutually advancing economic success
+                  | through financial and economic inclusion of women as investors, entrepreneurs,employees and customers
+              li
+                p
+                  span.text-bold Youth
+                  | - Remaining open to the creativity and skills of a large part of the population
+                  | to achieve a demographic dividend that creates a stable economy designed for growth.
+              li
+                p
+                  span.text-bold Climate Change
+                  | - Through deliberate resouce efficiency strategies,
+                  | we assist our clients to explore noteworthy opportunities for investors to integrate
+                  | and employ alternative solutions for a more sustainable future with better cost-benefit
+                  | outcomes than conventional methods.
+
+    .bg-light
+      .container.text-black.py-4
+        include includes/contact-form.pug

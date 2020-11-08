@@ -1,0 +1,95 @@
+extends ./includes/base.pug
+
+block navbar
+  #navbar-full
+    include includes/navbar-light.pug
+
+    .jumbotron.py-5(style="background-image: url('./assets/img/service-cover.png'); background-position:top center;")
+      .container
+        .row.text-white.mb-4(style="background-color:transparent;")
+          .col-md-7.col-sm-12.p-2
+            .col-md-12.my-2
+              h1.display-4
+                | Our Services
+            .col-md-12
+              h2.jumbotron-heading.mt-2.display-1
+                strong.d-sm-block.w-100 Corporate Governance Advisory Services
+            .col-md-12
+              p.mt-3
+                | Considering the complex regualatory environment within which all organisations
+                | in public and private operate whilst simultaneously being required to apply sound
+                | governance practices and King IV recommendations. It goes without saying that the board,
+                | its individual members, and those tasked with managing the affairs of the organisation,
+                | including prescribed officers, are in need of experienced, and professional and practical support,
+                | guidance and unique workable solutions. We provide such advisory services to aid those in
+                | organisational leadership in achieving this objective.
+
+block content
+  main
+    .container-fluid
+      .row.d-flex.align-items-center.bg-light
+        .col-md-4.offset-md-1.my-5.p-5.order-xs-1
+          h1 Assessements/
+            br
+            | Evaluations
+          p.my-5
+            | SIMS Advisory assissts in the assessment of the effectiveness of the
+            | governing body, it's committees and individual memebers and company
+            | company secretaries by applying the best-suited methodology,
+            | whether it is by way of an online questionnaire, personal-in-depth
+            | interviews or group facilitation of a combination of several of these
+            | methodologies dependent on the needs of the organisation.
+        .col-md-4.offset-md-2.service-img.order-xs-0
+          img.img-responsive.mr-5(src="./assets/img/service-ass-eval.png")
+
+      .row.d-flex.align-items-center.bg-dark
+        .col-md-4.offset-md-1.service-img
+          img.img-responsive(src="./assets/img/service-due-dil.png")
+        .col-md-4.offset-md-2.my-5.p-5
+          h1 Due Dilligence
+          p.my-5.pr-5
+            | We asses and report on the prevailing level of
+            | corporate governance in a target organisation.
+            | Our report includes findings and recommendations for implementation
+            | and reassessment after initial implementations.
+
+      .row.d-flex.align-items-center.bg-light
+        .col-md-4.offset-md-1.my-5.p-5
+          h1 Governance Audits
+          p.my-5
+            | We conduct a gap analysis to establish the governance structure ,
+            | chatters, terms of reference, delegations of authority, declaration of
+            | interests and policies and procedures in place. The result is a findings
+            | report with the fit-for-purpose recommendations and, once
+            | implemented, a second audit to ensure correct application.
+        .col-md-4.offset-md-2.service-img
+          img.img-responsive.mr-5(src="./assets/img/service-gov-aud.png")
+
+      .row.d-flex.align-items-center.bg-dark
+        .col-md-4.offset-md-1.service-img
+          img.img-responsive(src="./assets/img/service-gov-opi.png")
+        .col-md-4.offset-md-2.my-5.p-5
+          h1 Governance Opinions
+          p.my-5.pr-5
+            | As each scenerio is different we investigate the status and provide
+            | organisation with legally sound governance opinion. As far as
+            | possible it is our methodology to report on findings accompanied by
+            | recommendations which can easily be practically implemented.
+
+      .row.d-flex.align-items-center.bg-light
+        .col-md-4.offset-md-1.my-5.p-5
+          h1 Governance structures
+            br
+            | and frameworks
+          p.my-5
+            | SIMS team provides upstart guidance and advice on corporate
+            | governance principles for all organisations, governing bodies, board
+            | members and executives and company secretaries. Our team provides
+            | guidance on the construction of an overall framework to achieve
+            | sound governance practices.
+        .col-md-4.offset-md-2.service-img
+          img.img-responsive.mr-5(src="./assets/img/service-gov-fra.png")
+
+    .bg-dark
+      .container.text-white.py-4
+        include includes/contact-form.pug

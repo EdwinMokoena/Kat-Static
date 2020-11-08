@@ -1,0 +1,43 @@
+extends ./includes/base.pug
+
+block navbar
+  #navbar-full
+    include includes/navbar-light.pug
+
+    .jumbotron.text-left.py-5(style="background-image: url('./assets/img/about-us-cover.png'); background-position:top center;")
+      .container
+        .row.text-white(style="background-color:transparent;")
+          .col-md-8.col-sm-12.p-2
+            .col-md-12.text-white
+              h1.jumbotron-heading.mt-5
+                strong.d-sm-block.w-100 Who We Are
+            .col-md-12.py-2
+              p.my-4
+                | SIMS Corporate Governance and Compliance Consultancy is a specialis provider
+                | of secretarial, corporate governance, compliance, training and confrence solution.
+              p.my-4
+                | We work together with boards, directors, and senior management to be most efficient
+                | and to align organizations towards best practices and accountability.
+                | All this is done within the confines of applicable regulation through a diligent and thorough
+                | address of issues such as board committee composition, audit guidelines, and policy manual
+                | development among others, both for public corporations and private sector players.
+              p.my-4
+                | We further provide platforms for proffesionals and acedamics to enhance their skills ans knowledge,
+                | through corporate governance and compliance workshops, master classes, training confrences.
+              p.my-4
+                | Over and above our consultancy services, we organise and host training workshops,
+                | master-class and various forums that are structured to address governance related issues.
+                | The conceptualization of our forums is informed by thorough research on market trends and
+                | demands to ensure we meet our client's needs in the most relevant manner.
+              p.my-4
+                | Our tean of proffesionals ensures that we continously improve the corporate governance
+                | culture through a personalized and client-oriented approach.
+              p.my-5
+                | Although our foot-print is currently confined within the African continent, we are structured
+                | to ensure that our activities will reach the entire global economies.
+
+block content
+  main.main.bg-light.p-4
+    .container
+      .bg-light
+        include includes/contact-form.pug

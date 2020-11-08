@@ -1,0 +1,72 @@
+extends ./includes/base.pug
+
+block navbar
+  #navbar-full
+    include includes/navbar-light.pug
+
+    .jumbotron.text-right.py-5(style="background-image: url('./assets/img/index-cover.png'); background-position:top center; min-height:;")
+      .container
+        .row.text-white.mb-4(style="background-color:transparent;")
+          .col-md-8.offset-md-4.col-sm-12.p-2
+            .col-md-12.text-white
+              h1.jumbotron-heading.mt-2
+                strong.d-sm-block.w-100 Improving Standards Of Governance
+            .col-md-10.offset-md-2.py-2.my-1
+              p.my-4
+                | SIMS Corporate Governance and Compliance Consultancy is a specialis provider
+                | of secretarial, corporate governance, compliance, training and confrence solution.
+            .col-md-4.offset-md-8.my-1
+              button.btn.btn-block.text-white(href="about.html") Learn More
+
+        .row.mt-5.text-left.px-5.py-1(style="background-color:transparent;")
+          .col-md-3.col-sm-6
+            .thumbnail
+              img(src="./assets/img/index-card-1.png")
+              .caption.bg-light.p-3
+                h4.px-4.py-4 Corporate Governance
+          .col-md-3.col-sm-6
+            .thumbnail
+              img(src="./assets/img/index-card-2.png")
+              .caption.bg-light.p-3
+                h4.px-4.py-1 Environmental, Social and Governance (ESG)
+          .col-md-3.col-sm-6
+            .thumbnail
+              img(src="./assets/img/index-card-3.png")
+              .caption.bg-light.p-3
+                h4.px-4.py-4 Business Advisory
+          .col-md-3.col-sm-6
+            .thumbnail
+              img(src="./assets/img/index-card-4.png")
+              .caption.bg-light.p-3
+                h4.px-4.py-4 Corporate Training
+
+block content
+  main
+    .bg-dark
+      .container-fluid
+        .row.d-flex.align-items-center
+          .col-md-5.my-5.p-5
+            h1 Our Services
+            p.my-5.pr-5
+              | SIMS Offers advisory services in ESG to organisations
+              | seeking to deploy capital or receive capital for growth
+              | and impact investments.
+            .col-md-4.col-sm-6.mb-5.p-0
+              button.btn.btn-block Learn More
+          .col-md-7.m-0.pr-md-0.pr-lg-0
+            img.img-responsive(src="./assets/img/index-service.png")
+
+        .row.d-flex.align-items-center
+          .col-md-7.m-0.pl-md-0.pl-lg-0
+            img.img-responsive(src="./assets/img/index-due-dil.jpg")
+          .col-md-5.my-5.p-5
+            h1 Due Dilligence
+            p.my-5.pr-5
+              | We asses and report on the prevailing level of
+              | corporate governance in a target organisation
+            .col-md-4.col-sm-6.mb-5.p-0
+              button.btn.btn-block Learn More
+
+    .container
+      .bg-light
+        include includes/contact-form.pug
