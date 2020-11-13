@@ -1,0 +1,215 @@
+CRITICAL - 2020-11-13 04:21:48 --> Invalid file: ./dist/index.html
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./dist/index.ht...')
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Common.php(1119): CodeIgniter\View\View->render('./dist/index.ht...', Array, true)
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/app/Controllers/Home.php(8): view('./dist/index.ht...')
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#8 {main}
+CRITICAL - 2020-11-13 04:22:15 --> Invalid file: ./dist/index.html
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./dist/index.ht...')
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Common.php(1119): CodeIgniter\View\View->render('./dist/index.ht...', Array, true)
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/app/Controllers/Home.php(8): view('./dist/index.ht...')
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#8 {main}
+CRITICAL - 2020-11-13 04:22:18 --> Invalid file: ./dist/index.html
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./dist/index.ht...')
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Common.php(1119): CodeIgniter\View\View->render('./dist/index.ht...', Array, true)
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/app/Controllers/Home.php(8): view('./dist/index.ht...')
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#8 {main}
+CRITICAL - 2020-11-13 04:22:27 --> Invalid file: ./dist/index.html
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./dist/index.ht...')
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Common.php(1119): CodeIgniter\View\View->render('./dist/index.ht...', Array, true)
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/app/Controllers/Home.php(8): view('./dist/index.ht...')
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#8 {main}
+CRITICAL - 2020-11-13 04:24:12 --> Call to a member function helper() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 04:24:39 --> Call to a member function helper() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 04:24:50 --> Call to a member function helper() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 04:26:28 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 04:26:31 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 04:47:12 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 04:56:40 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 05:14:19 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 05:14:26 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:12:29 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:12:40 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:20:25 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:20:36 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:20:39 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:20:43 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:22:12 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:22:19 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:22:35 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:22:38 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:22:43 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:26:19 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:26:21 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:26:30 --> Cannot call constructor
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:28:05 --> Call to a member function helper() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-13 06:54:06 --> Call to a member function helper() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
