@@ -28,7 +28,7 @@ const sassConfig = {
       loader: 'file-loader',
       options: {
         outputPath: (url, resourcePath, context) => {
-          return "dist/assets/css/styles.css";
+          return "public/assets/css/styles.css";
         },
       }
     },
@@ -102,27 +102,27 @@ module.exports = env => {
         }
       }),
       new HtmlWebpackPlugin({
-        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/contact.html'),
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/backend/app/Views/contact.php'),
         template: "./pug/contact.pug",
         inject: false
       }),
       new HtmlWebpackPlugin({
-        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/about.html'),
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/backend/app/Views/about.php'),
         template: "./pug/about.pug",
         inject: false
       }),
       new HtmlWebpackPlugin({
-        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/index.html'),
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/backend/app/Views/index.php'),
         template: "./pug/index.pug",
         inject: false
       }),
       new HtmlWebpackPlugin({
-        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/service.html'),
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/backend/app/Views/service.php'),
         template: "./pug/service.pug",
         inject: false
       }),
       new HtmlWebpackPlugin({
-        filename: path.resolve(env.PROJECT_DIRECTORY + '/dist/esg.html'),
+        filename: path.resolve(env.PROJECT_DIRECTORY + '/backend/app/Views/esg.php'),
         template: "./pug/esg.pug",
         inject: false
       }),

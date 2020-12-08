@@ -2,35 +2,40 @@
 
 class Validation
 {
-	//--------------------------------------------------------------------
-	// Setup
-	//--------------------------------------------------------------------
+    //--------------------------------------------------------------------
+    // Setup
+    //--------------------------------------------------------------------
 
-	/**
-	 * Stores the classes that contain the
-	 * rules that are available.
-	 *
-	 * @var array
-	 */
-	public $ruleSets = [
-		\CodeIgniter\Validation\Rules::class,
-		\CodeIgniter\Validation\FormatRules::class,
-		\CodeIgniter\Validation\FileRules::class,
-		\CodeIgniter\Validation\CreditCardRules::class,
-	];
+    /**
+     * Stores the classes that contain the
+     * rules that are available.
+     *
+     * @var array
+     */
+    public $ruleSets = [
+    \CodeIgniter\Validation\Rules::class,
+    \CodeIgniter\Validation\FormatRules::class,
+    \CodeIgniter\Validation\FileRules::class,
+    \CodeIgniter\Validation\CreditCardRules::class,
+    ];
 
-	/**
-	 * Specifies the views that are used to display the
-	 * errors.
-	 *
-	 * @var array
-	 */
-	public $templates = [
-		'list'   => 'CodeIgniter\Validation\Views\list',
-		'single' => 'CodeIgniter\Validation\Views\single',
-	];
+    /**
+     * Specifies the views that are used to display the
+     * errors.
+     *
+     * @var array
+     */
+    public $templates = [
+    'list'   => 'CodeIgniter\Validation\Views\list',
+    'single' => 'CodeIgniter\Validation\Views\single',
+    ];
 
-	//--------------------------------------------------------------------
-	// Rules
-	//--------------------------------------------------------------------
+    //--------------------------------------------------------------------
+    // Rules
+    //--------------------------------------------------------------------
+    public $contact_form = [
+      "name" => "required|max_length[10]|alpha",
+      "surname" => "required|max_length[15]|alpha",
+      "email" => "required|valid_email"
+    ];
 }

@@ -1,0 +1,63 @@
+CRITICAL - 2020-11-19 10:33:53 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:34:15 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:35:06 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:35:39 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:36:03 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:40:39 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:45:32 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:49:15 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}
+CRITICAL - 2020-11-19 10:50:28 --> Call to a member function post() on null
+#0 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(918): App\Controllers\Home->contact_form()
+#1 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ed/Work/Products/Ongoing/Kat-Static/backend/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/ed/Work/Products/Ongoing/Kat-Static/backend/system/Commands/Server/rewrite.php(34): require_once('/home/ed/Work/P...')
+#5 {main}

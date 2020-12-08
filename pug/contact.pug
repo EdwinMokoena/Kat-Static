@@ -1,6 +1,7 @@
 extends ./includes/base.pug
 
 block navbar
+  | <?php if($name && $surname && $email){ echo($email ." ".$name." ".$surname); } ?>
   #navbar-full
     include includes/navbar-light.pug
 
@@ -12,7 +13,7 @@ block navbar
                strong.d-sm-block.w-100 Contact Us
           .col-md-3.px-5.ml-5.d-flex.flex-column.col-sm-12
             h2 Address
-            p 17 Edenvalk Crescent
+            p 17 Edelvalk Crescent
               br
               |Liefde en Vrede
               br

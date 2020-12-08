@@ -34,6 +34,7 @@ $routes->get('/services', 'Home::services');
 $routes->get('/esg', 'Home::esg');
 $routes->get('/about-us', 'Home::about');
 $routes->get('/contact-us', 'Home::contact');
+$routes->post('/contact-form', 'Home::contact_form');
 
 /**
  * --------------------------------------------------------------------
