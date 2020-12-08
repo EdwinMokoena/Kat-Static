@@ -28,7 +28,7 @@ const sassConfig = {
       loader: 'file-loader',
       options: {
         outputPath: (url, resourcePath, context) => {
-          return "public/assets/css/styles.css";
+          return "backend/public/assets/css/styles.css";
         },
       }
     },
@@ -75,7 +75,7 @@ module.exports = env => {
     },
     mode: "development",
     entry: {
-      "dist/assets/css/styles.css": "./scss/styles.scss",
+      "./backend/public/assets/css/styles.css": "./scss/styles.scss",
     },
     watch: false,
     output: {
@@ -92,7 +92,7 @@ module.exports = env => {
       new CleanWebpackPlugin({
         cleanStaleWepackAssets: true,
         cleanOnceBeforeBuildPatterns: [],
-        cleanAfterEveryBuildPatterns: ["**/dist/assets/js/*.js.js", "**/dist/assets/css/*.js", "!node_modules/**"]
+        cleanAfterEveryBuildPatterns: ["**/backend/public/assets/js/*.js.js", "**/backend/public/assets/css/*.js", "!node_modules/**"]
       }),
       new webpack.LoaderOptionsPlugin({
         options: {

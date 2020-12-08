@@ -16,7 +16,7 @@ block navbar
                 | SIMS Corporate Governance and Compliance Consultancy is a specialis provider
                 | of secretarial, corporate governance, compliance, training and conference solution.
             .col-md-4.offset-md-8.my-1
-              button.btn.btn-block.text-white(href="about.html") Learn More
+              a.btn.btn-block.text-white(href!="<?php echo base_url();?>/services") Learn More
 
         .row.mt-5.text-left.px-5.py-1(style="background-color:transparent;")
           .col-md-3.col-sm-6
@@ -52,7 +52,7 @@ block content
               | seeking to deploy capital or receive capital for growth
               | and impact investments.
             .col-md-4.col-sm-6.mb-5.p-0
-              a.btn.btn-block(href!="<?php echo base_url();?>/service") Learn More
+              a.btn.btn-block(href!="<?php echo base_url();?>/services") Learn More
           .col-md-7.m-0.pr-md-0.pr-lg-0
             img.img-responsive(src="./assets/img/index-service.png")
 
@@ -65,7 +65,7 @@ block content
               | We assess and report on the prevailing level of
               | corporate governance in a target organisation
             .col-md-4.col-sm-6.mb-5.p-0
-              a.btn.btn-block(href!="<?php echo base_url();?>/service") Learn More
+              a.btn.btn-block(href!="<?php echo base_url();?>/services") Learn More
 
     .container
       .bg-light

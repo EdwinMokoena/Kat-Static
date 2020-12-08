@@ -1,24 +1,24 @@
 .container
   nav.navbar.navbar-fixed-top.navbar-default(role="navigation")
-    .container
+    .container-fluid
       .navbar-header
-        button.navbar-toggle(data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+        button.navbar-toggle.mt-4(data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
           span.icon-bar
           span.icon-bar
           span.icon-bar
         a(href="index.html")
           .logo-container
             .logo.pb-5.pt-0
-              img(src="./assets/img/logo.jpg")
+              img(src="./assets/img/logo.jpg").img-responsive
             .brand
               |SIMSCONSULTANCY
 
       .collapse.navbar-collapse#bs-example-navbar-collapse-1
         ul(class="nav navbar-nav navbar-right")
           li
-            a(href!="<?php base_url();?>") Home
+            a(href!="<?php base_url();?>/") Home
           li
-            a(href!="<?php base_url();?>/services") Consultancy and Governance
+            a(href!="<?php base_url();?>/services") Consultancy
           li
             a(href!="<?php base_url();?>/esg") ESG
           li

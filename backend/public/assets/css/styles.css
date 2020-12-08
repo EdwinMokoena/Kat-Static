@@ -181,6 +181,8 @@ button {
     background-color: transparent;
     border-radius: 15px;
     border-color: #011c59; }
+  .bg-light .has-error .form-control {
+    border-color: #b94a48 !important; }
   .bg-light .btn {
     color: #ffffff !important;
     background-color: #011c59 !important;

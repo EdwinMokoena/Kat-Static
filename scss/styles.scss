@@ -268,6 +268,10 @@ button {
     border-color: $dark;
   }
 
+  .has-error .form-control {
+    border-color: #b94a48 !important;
+  }
+
   .btn {
     color: $light !important;
     background-color: $dark !important;
