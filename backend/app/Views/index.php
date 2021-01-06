@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=2"><title></title><meta content="width=device-width, initial-scale=2.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta name="viewport" content="width=device-width"><link href="<?php echo base_url(); ?>/bootstrap3/css/bootstrap.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/assets/css/demo.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/assets/css/styles.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/bootstrap3/css/bootstrap-grid.min.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/bootstrap3/css/bootstrap-reboot.min.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/bootstrap3/css/font-awesome.css" rel="stylesheet"><link rel="stylesheet" href="https://use.typekit.net/fio2tgl.css"></head><body><div id="navbar-full"><div class="container"><nav class="navbar navbar-fixed-top navbar-default" role="navigation"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle mt-4" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html"><div class="logo-container"><div class="logo pb-5 pt-0"><img class="img-responsive" src="./assets/img/logo.jpg"></div><div class="brand">SIMSCONSULTANCY</div></div></a></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li><a href="<?php base_url();?>/">Home</a></li><li><a href="<?php base_url();?>/services">Consultancy</a></li><li><a href="<?php base_url();?>/esg">ESG</a></li><li><a href="<?php base_url();?>/about-us">About Us</a></li><li><a href="<?php base_url();?>/contact-us">Contact Us</a></li></ul></div></div></nav></div><div class="jumbotron text-right py-5" style="background-image: url('./assets/img/index-cover.png'); background-position:top center; min-height:;"><div class="container"><div class="row text-white mb-4" style="background-color:transparent;"><div class="col-md-8 offset-md-4 col-sm-12 p-2"><div class="col-md-12 text-white"><h1 class="jumbotron-heading mt-2"><strong class="d-sm-block w-100">Improving Standards Of Governance</strong></h1></div><div class="col-md-10 offset-md-2 py-2 my-1"><p class="my-4">SIMS Corporate Governance and Compliance Consultancy is a specialis provider
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=2"><title></title><meta content="width=device-width, initial-scale=2.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta name="viewport" content="width=device-width"><link href="<?php echo base_url(); ?>/bootstrap3/css/bootstrap.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/assets/css/demo.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/assets/css/styles.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/bootstrap3/css/bootstrap-grid.min.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/bootstrap3/css/bootstrap-reboot.min.css" rel="stylesheet"><link href="<?php echo base_url(); ?>/bootstrap3/css/font-awesome.css" rel="stylesheet"><link rel="stylesheet" href="https://use.typekit.net/fio2tgl.css"></head><body><div id="navbar-full"><div class="container"><nav class="navbar navbar-fixed-top navbar-default" role="navigation"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle mt-4" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="<?php base_url();?>/"><div class="logo-container"><div class="logo pb-5 pt-0"><img class="img-responsive" src="./assets/img/logo.jpg"></div><div class="brand">SIMSCONSULTANCY</div></div></a></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li><a href="<?php base_url();?>/">Home</a></li><li><a href="<?php base_url();?>/services">Consultancy</a></li><li><a href="<?php base_url();?>/esg">Governance</a></li><li><a href="<?php base_url();?>/about-us">About Us</a></li><li><a href="<?php base_url();?>/contact-us">Contact Us</a></li></ul></div></div></nav></div><div class="jumbotron text-right py-5" style="background-image: url('./assets/img/index-cover.png'); background-position:top center; min-height:;"><div class="container"><div class="row text-white mb-4" style="background-color:transparent;"><div class="col-md-8 offset-md-4 col-sm-12 p-2"><div class="col-md-12 text-white"><h1 class="jumbotron-heading mt-2"><strong class="d-sm-block w-100">Improving Standards Of Governance</strong></h1></div><div class="col-md-10 offset-md-2 py-2 my-1"><p class="my-4">SIMS Corporate Governance and Compliance Consultancy is a specialist provider
 of secretarial, corporate governance, compliance, training and conference solution.</p></div><div class="col-md-4 offset-md-8 my-1"><a class="btn btn-block text-white" href="<?php echo base_url();?>/services">Learn More</a></div></div></div><div class="row mt-5 text-left px-5 py-1" style="background-color:transparent;"><div class="col-md-3 col-sm-6"><div class="thumbnail"><img src="./assets/img/index-card-1.png"><div class="caption bg-light p-3"><h4 class="px-4 py-4">Corporate Governance</h4></div></div></div><div class="col-md-3 col-sm-6"><div class="thumbnail"><img src="./assets/img/index-card-2.png"><div class="caption bg-light p-3"><h4 class="px-4 py-1">Environmental, Social and Governance (ESG)</h4></div></div></div><div class="col-md-3 col-sm-6"><div class="thumbnail"><img src="./assets/img/index-card-3.png"><div class="caption bg-light p-3"><h4 class="px-4 py-4">Business Advisory</h4></div></div></div><div class="col-md-3 col-sm-6"><div class="thumbnail"><img src="./assets/img/index-card-4.png"><div class="caption bg-light p-3"><h4 class="px-4 py-4">Corporate Training</h4></div></div></div></div></div></div></div><main><div class="bg-dark"><div class="container-fluid"><div class="row d-flex align-items-center"><div class="col-md-5 my-5 p-5"><h1>Our Services</h1><p class="my-5 pr-5">SIMS offers advisory services in ESG to organisations
 seeking to deploy capital or receive capital for growth
 and impact investments.</p><div class="col-md-4 col-sm-6 mb-5 p-0"><a class="btn btn-block" href="<?php echo base_url();?>/services">Learn More</a></div></div><div class="col-md-7 m-0 pr-md-0 pr-lg-0"><img class="img-responsive" src="./assets/img/index-service.png"></div></div><div class="row d-flex align-items-center"><div class="col-md-7 m-0 pl-md-0 pl-lg-0"><img class="img-responsive" src="./assets/img/index-due-dil.jpg"></div><div class="col-md-5 my-5 p-5"><h1>Due Dilligence</h1><p class="my-5 pr-5">We assess and report on the prevailing level of
@@ -8,34 +8,69 @@ var contact_btn = $("#contact-btn");
 var name_help_block = $("#name-form-group .help-block").hide();
 var surname_help_block = $("#surname-form-group span.help-block").hide();
 var email_help_block = $("#email-form-group span.help-block").hide();
-contact_btn.click(function(e){
-  e.preventDefault();
-  req = $.ajax({
-    url       : "<?php echo base_url('contact-form');?>",
-    type      : "POST",
-    data      : contact_form.serialize(),
-    headers   : {'X-Requested-With': 'XMLHttpRequest'}
-  });
-  req.success(function(res){
-    console.log(contact_form[0]);
-  });
-  req.fail(function(res){
-    res = JSON.parse(res.responseText);
-    $("#name-form-group").addClass("has-error");
-    name_help_block.html(
-      res.messages["name"]
-    );
-    name_help_block.show();
+var name_form_group = $("#name-form-group");
+var surname_form_group = $("#surname-form-group");
+var email_form_group = $("#email-form-group");
+function removeClasses(resClass){
+    setTimeout(
+        function(){
+            name_form_group.removeClass(resClass);
+            name_form_group.children("input.form-control").removeClass(resClass).val("");
 
-    $("#surname-form-group").addClass("has-error");
-    surname_help_block.html(
-      res.messages["surname"]
+            surname_form_group.removeClass(resClass);
+            surname_form_group.children("input.form-control").removeClass(resClass).val("");
+
+            email_form_group.removeClass(resClass);
+            email_form_group.children("input.form-control").removeClass(resClass).val("");
+
+            name_help_block.hide()
+            surname_help_block.hide()
+            email_help_block.hide()
+
+            contact_btn.html("Submit");
+        },
+        5000
     );
-    surname_help_block.show();
-    $("#email-form-group").addClass("has-error");
-    email_help_block.html(
-      res.messages["email"]
-    );
-    email_help_block.show();
-  });
+}
+contact_btn.click(function(e){
+    e.preventDefault();
+    req = $.ajax({
+        url       : "<?php echo base_url();?>/contact-form",
+        type      : "POST",
+        data      : contact_form.serialize(),
+        headers   : {'X-Requested-With': 'XMLHttpRequest'}
+    });
+
+
+    req.success(function(res){
+
+        name_form_group.addClass("has-success");
+        surname_form_group.addClass("has-success");
+        email_form_group.addClass("has-success");
+        contact_btn.html("Sent");
+
+        removeClasses("has-success");
+    });
+
+
+    req.fail(function(res){
+        resClass = "has-error";
+
+        name_form_group.addClass("has-error");
+        name_help_block.html("Invalid Name");
+        name_help_block.show();
+
+        surname_form_group.addClass("has-error");
+        surname_help_block.html("Invalid Surname");
+        surname_help_block.show();
+
+        email_form_group.addClass("has-error");
+        email_help_block.html("Invalid Email address");
+        email_help_block.show();
+        contact_btn.html("Error");
+
+        removeClasses("has-error");
+    });
+
+
 });</script></body></html>
